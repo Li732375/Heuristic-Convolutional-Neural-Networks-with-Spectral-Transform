@@ -1,0 +1,25 @@
+{
+  "in_shape": [
+    32,
+    32
+  ],
+  "out_shape": [
+    10
+  ],
+  "layers": [
+    {
+      "type": "Dct2_2d"
+    },
+    {
+      "type": "Dft_2d"
+    },
+    {
+      "type": "ReLU"
+    },
+    {
+      "type": "Flatten"
+    }
+  ],
+  "parameter_count": 26634,
+  "accuracy": 10.0
+}

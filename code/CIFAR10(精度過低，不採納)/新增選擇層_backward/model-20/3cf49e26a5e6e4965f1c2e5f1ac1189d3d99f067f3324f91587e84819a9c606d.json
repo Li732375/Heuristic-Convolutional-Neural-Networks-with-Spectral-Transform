@@ -1,0 +1,22 @@
+{
+  "in_shape": [
+    32,
+    32
+  ],
+  "out_shape": [
+    10
+  ],
+  "layers": [
+    {
+      "type": "AvgPool2d"
+    },
+    {
+      "type": "ReLU"
+    },
+    {
+      "type": "Flatten"
+    }
+  ],
+  "parameter_count": 2570,
+  "accuracy": 27.530000686645508
+}

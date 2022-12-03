@@ -1,0 +1,40 @@
+{
+  "in_shape": [
+    28,
+    28
+  ],
+  "out_shape": [
+    10
+  ],
+  "layers": [
+    {
+      "type": "Dft_2d"
+    },
+    {
+      "type": "ReLU"
+    },
+    {
+      "type": "Conv2d",
+      "out_channels": 16
+    },
+    {
+      "type": "Conv2d",
+      "out_channels": 1
+    },
+    {
+      "type": "Conv2d",
+      "out_channels": 1
+    },
+    {
+      "type": "ReLU"
+    },
+    {
+      "type": "ReLU"
+    },
+    {
+      "type": "Flatten"
+    }
+  ],
+  "parameter_count": 18826,
+  "accuracy": 92.28166961669922
+}

@@ -1,0 +1,4 @@
+start: {'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 82.70999908447266} height=82.702149
+0:{'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Conv_Avg_Pool2d', 'out_channels': 16}, {'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 83.5} height=83.492150
+fail 50 times!
+solution: {'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Conv_Avg_Pool2d', 'out_channels': 16}, {'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 83.5} height=83.492150

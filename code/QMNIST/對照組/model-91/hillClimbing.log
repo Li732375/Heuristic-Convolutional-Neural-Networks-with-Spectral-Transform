@@ -1,0 +1,7 @@
+start: {'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 91.3933334350586} height=91.385483
+0:{'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Conv_Avg_Pool2d', 'out_channels': 1}, {'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 91.538330078125} height=91.530480
+1:{'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Conv2d', 'out_channels': 16}, {'type': 'Conv_Avg_Pool2d', 'out_channels': 1}, {'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 91.5633316040039} height=91.555482
+5:{'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Conv_Avg_Pool2d', 'out_channels': 16}, {'type': 'Conv2d', 'out_channels': 16}, {'type': 'Conv_Avg_Pool2d', 'out_channels': 1}, {'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 91.57166290283203} height=91.563813
+7:{'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Conv_Avg_Pool2d', 'out_channels': 16}, {'type': 'Conv2d', 'out_channels': 16}, {'type': 'Conv_Avg_Pool2d', 'out_channels': 4}, {'type': 'Conv_Avg_Pool2d', 'out_channels': 1}, {'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 91.6866683959961} height=91.678818
+fail 50 times!
+solution: {'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Conv_Avg_Pool2d', 'out_channels': 16}, {'type': 'Conv2d', 'out_channels': 16}, {'type': 'Conv_Avg_Pool2d', 'out_channels': 4}, {'type': 'Conv_Avg_Pool2d', 'out_channels': 1}, {'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 91.6866683959961} height=91.678818

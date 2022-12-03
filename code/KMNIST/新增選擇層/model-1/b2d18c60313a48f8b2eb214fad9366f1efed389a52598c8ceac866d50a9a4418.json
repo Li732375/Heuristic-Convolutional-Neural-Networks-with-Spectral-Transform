@@ -1,0 +1,50 @@
+{
+  "in_shape": [
+    28,
+    28
+  ],
+  "out_shape": [
+    10
+  ],
+  "layers": [
+    {
+      "type": "ReLU"
+    },
+    {
+      "type": "Conv_Avg_Pool2d",
+      "out_channels": 2
+    },
+    {
+      "type": "ReLU"
+    },
+    {
+      "type": "Conv2d",
+      "out_channels": 32
+    },
+    {
+      "type": "AvgPool2d"
+    },
+    {
+      "type": "Conv2d",
+      "out_channels": 2
+    },
+    {
+      "type": "AvgPool2d"
+    },
+    {
+      "type": "Dft_2d"
+    },
+    {
+      "type": "ReLU"
+    },
+    {
+      "type": "Conv_Avg_Pool2d",
+      "out_channels": 8
+    },
+    {
+      "type": "Flatten"
+    }
+  ],
+  "parameter_count": 1186,
+  "accuracy": 70.58000183105469
+}

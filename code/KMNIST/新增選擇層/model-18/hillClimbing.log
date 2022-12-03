@@ -1,0 +1,5 @@
+start: {'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Flatten'}], 'parameter_count': 7850, 'accuracy': 69.58999633789062} height=69.582146
+4:{'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Dft_2d'}, {'type': 'Flatten'}], 'parameter_count': 18826, 'accuracy': 73.31999969482422} height=73.301174
+6:{'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Dft_2d'}, {'type': 'Conv2d', 'out_channels': 1}, {'type': 'Flatten'}], 'parameter_count': 18826, 'accuracy': 78.30000305175781} height=78.281177
+fail 50 times!
+solution: {'in_shape': [28, 28], 'out_shape': [10], 'layers': [{'type': 'Dft_2d'}, {'type': 'Conv2d', 'out_channels': 1}, {'type': 'Flatten'}], 'parameter_count': 18826, 'accuracy': 78.30000305175781} height=78.281177

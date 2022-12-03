@@ -1,0 +1,29 @@
+{
+  "in_shape": [
+    28,
+    28
+  ],
+  "out_shape": [
+    10
+  ],
+  "layers": [
+    {
+      "type": "Conv2d",
+      "out_channels": 16
+    },
+    {
+      "type": "Dft_2d"
+    },
+    {
+      "type": "AvgPool2d"
+    },
+    {
+      "type": "AvgPool2d"
+    },
+    {
+      "type": "Flatten"
+    }
+  ],
+  "parameter_count": 4126,
+  "accuracy": 88.79000091552734
+}

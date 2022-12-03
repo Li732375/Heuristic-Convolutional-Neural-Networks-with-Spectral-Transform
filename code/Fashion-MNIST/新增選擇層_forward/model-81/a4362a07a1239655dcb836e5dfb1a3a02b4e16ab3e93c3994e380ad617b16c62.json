@@ -1,0 +1,19 @@
+{
+  "in_shape": [
+    28,
+    28
+  ],
+  "out_shape": [
+    10
+  ],
+  "layers": [
+    {
+      "type": "Dct2_2d"
+    },
+    {
+      "type": "Flatten"
+    }
+  ],
+  "parameter_count": 9418,
+  "accuracy": 76.25
+}
